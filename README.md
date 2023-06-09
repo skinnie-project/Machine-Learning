@@ -12,7 +12,7 @@ The skin type is classified by analyzing the picture using a Convolutional Neura
 
 ## Dataset
 
-For the skin type classification, we created the dataset ourselves by crawling pictures for each skin type from various search engines. As for the skincare product data, we scraped it from Female Daily.
+For the skin type classification, we created the dataset ourselves by crawling pictures for each skin type from various search engines. As for the skincare product data, we scraped it from [Female Daily](https://femaledaily.com/).
 
 ## References
 
