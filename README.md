@@ -18,10 +18,10 @@ For the skin type classification, we created the dataset ourselves by crawling p
 
 Here are some recources that we uses as oru reference:
 
-https://tfhub.dev/google/imagenet/efficientnet_v2_imagenet1k_b0/feature_vector/2
-https://medium.com/mlearning-ai/understanding-efficientnet-the-most-powerful-cnn-architecture-eaeb40386fad
-https://www.researchgate.net/publication/350578362_EfficientNetV2_Smaller_Models_and_Faster_Training
-https://github.com/Randon-Myntra-HackerRamp-21/Skyn/tree/main/ML/Skin_metrics/Skin_type
+- https://tfhub.dev/google/imagenet/efficientnet_v2_imagenet1k_b0/feature_vector/2
+- https://medium.com/mlearning-ai/understanding-efficientnet-the-most-powerful-cnn-architecture-eaeb40386fad
+- https://www.researchgate.net/publication/350578362_EfficientNetV2_Smaller_Models_and_Faster_Training
+- https://github.com/Randon-Myntra-HackerRamp-21/Skyn/tree/main/ML/Skin_metrics/Skin_type
 
 
 ## EfficientNetV2 B0 Transfer Learning
@@ -32,7 +32,7 @@ When deciding which version of EfficientNet to use, we should consider the size 
 
 In this apllication, we decided to use EfficientNetV2 B0.
 
-![fficientNet B0](https://www.researchgate.net/publication/348470984/figure/fig2/AS:979961129209859@1610652348348/The-EffecientNet-B0-general-architecture.png)
+![image](https://github.com/skinnie-project/Machine-Learning/assets/74850037/6fc8f44c-2f69-4041-a00c-195446918a4d)
 
 recource: [General EfficientNet B0 Architecture](http://dx.doi.org/10.1109/ACCESS.2021.3051085)
 
