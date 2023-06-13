@@ -8,7 +8,8 @@ The skin type is classified by analyzing the picture using a Convolutional Neura
 
 ## Recommender System
 
--
+After we classify the user's skin type, we then recommend some skincare product that matched the skin type using a recommender system.
+The recommender system use Linear Regression as a model for learning the relationship between the features and the product rating from our dataset. We also use TF-IDF vectorizer for converting the textual data into numerical features so the model can understand and learn, enabling it to make predictions based on the user's input and rank the products accordingly. The recommendation is sorted  based on the product rating.
 
 ## Dataset
 
@@ -16,12 +17,15 @@ For the skin type classification, we created the dataset ourselves by crawling p
 
 ## References
 
-Here are some recources that we uses as oru reference:
+Here are some resources that we use as our reference:
 
 - https://tfhub.dev/google/imagenet/efficientnet_v2_imagenet1k_b0/feature_vector/2
 - https://medium.com/mlearning-ai/understanding-efficientnet-the-most-powerful-cnn-architecture-eaeb40386fad
 - https://www.researchgate.net/publication/350578362_EfficientNetV2_Smaller_Models_and_Faster_Training
 - https://github.com/Randon-Myntra-HackerRamp-21/Skyn/tree/main/ML/Skin_metrics/Skin_type
+- https://github.com/pooja-anandani/Cosmetic-Recommendation-System/blob/main/notebook.ipynb
+- https://github.com/agorina91/final_project/blob/master/Jupyter_Notebook_and_CSV/Skincare_Recommendations_Final_Project.ipynb
+- https://github.com/Randon-Myntra-HackerRamp-21/Scraper/blob/master/Recommendation_Engine.ipynb
 
 
 ## EfficientNetV2 B0 Transfer Learning
